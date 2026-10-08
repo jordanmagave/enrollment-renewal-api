@@ -1,4 +1,5 @@
 # Enrollment Renewal API
+[![CI](https://github.com/jordanmagave/enrollment-renewal-api/actions/workflows/ci.yml/badge.svg)](https://github.com/jordanmagave/enrollment-renewal-api/actions/workflows/ci.yml)
 
 A REST backend for a school enrollment-renewal payment flow. A parent or guardian
 authenticates with a national ID number plus a one-time code delivered over WhatsApp,
