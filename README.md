@@ -3,6 +3,7 @@
 [![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue)](https://www.python.org/)
+[![License: all rights reserved](https://img.shields.io/badge/license-all%20rights%20reserved-lightgrey)](LICENSE)
 
 A REST backend for a school enrollment-renewal payment flow. A parent or guardian
 authenticates with a national ID number plus a one-time code delivered over WhatsApp,
