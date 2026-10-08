@@ -1,0 +1,39 @@
+# Segredos — nunca versionar
+.env
+.env.*
+!.env.example
+*-service-account*.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# DuckDB local (fixtures são geradas em runtime)
+*.duckdb
+*.duckdb.wal
+
+# Node (frontend, etapa futura)
+node_modules/
+dist/
+.next/
+
+# Config local do Claude Code
+.claude/settings.local.json
+
+# SO / editor
+.DS_Store
+.idea/
+*.swp
+
+# Canvas do Claude Design: gerado a partir dos .dc.html, ~2MB de editor embutido.
+design_id/rematricula-2027.html
